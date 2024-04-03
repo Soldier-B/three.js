@@ -47,6 +47,8 @@ class TrackballControls extends EventDispatcher {
 		this.minZoom = 0;
 		this.maxZoom = Infinity;
 
+		this.autoRotate = false;
+
 		this.keys = [ 'KeyA' /*A*/, 'KeyS' /*S*/, 'KeyD' /*D*/ ];
 
 		this.mouseButtons = { LEFT: MOUSE.ROTATE, MIDDLE: MOUSE.DOLLY, RIGHT: MOUSE.PAN };
